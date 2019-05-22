@@ -121,7 +121,7 @@ class Student
       SELECT *
       FROM students
       WHERE grade = ?
-      
+      ORDER BY student.
   end 
   
 end
