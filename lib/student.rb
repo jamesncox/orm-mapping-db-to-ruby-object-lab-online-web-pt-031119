@@ -122,6 +122,8 @@ class Student
       FROM students
       WHERE grade = ?
       ORDER BY students.id
+    SQL
+    
   end 
   
 end
