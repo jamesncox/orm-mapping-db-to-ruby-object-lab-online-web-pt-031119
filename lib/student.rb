@@ -120,6 +120,8 @@ class Student
     sql = <<-SQL
       SELECT *
       FROM students
+      WHERE grade = ?
+      
   end 
   
 end
