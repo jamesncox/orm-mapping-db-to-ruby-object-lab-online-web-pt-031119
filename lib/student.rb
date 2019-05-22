@@ -31,8 +31,9 @@ class Student
       FROM students
       WHERE name = ?
       LIMIT 1
-    SQL 
-    
+    SQL
+  
+    DB[:conn].execute(sql,)  
   end
   
   def save
